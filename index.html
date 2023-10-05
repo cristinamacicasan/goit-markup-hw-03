@@ -15,40 +15,54 @@
   <body>
     <header class="global-header">
       <!--Logo WebStudio-->
-      <a href="./images/logo-webstudio.png" class="logo-link">
-        <p class="logo">
-          <span class="logo-web">Web</span>
-          <span class="logo-studio">Studio</span>
-        </p>
-      </a>
-      <nav class="main-navigation">
-        <ul>
-          <li><a class="studio" href="index.html">Studio</a></li>
-          <li><a class="portofoliu" href="portofoliu.html">Portfolio</a></li>
-          <li><a class="contacts" href="#">Contacts</a></li>
-        </ul>
-      </nav>
+      <div class="logo-container">
+        <a href="./images/logo-webstudio.png" class="logo-link">
+          <p class="logo">
+            <span class="logo-web">Web</span>
+            <span class="logo-studio">Studio</span>
+          </p>
+        </a>
 
-      <a class="email" href="mailto:info@devstudio.com">info@devstudio.com</a
-      ><br />
-      <a class="tel" href="tel:+12127724150">+1 212-772-4150</a>
+        <div class="nav-container">
+          <nav class="main-navigation">
+            <ul>
+              <li><a class="studio" href="index.html">Studio</a></li>
+              <li>
+                <a class="portofoliu" href="portofoliu.html">Portfolio</a>
+              </li>
+              <li><a class="contacts" href="#">Contacts</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="contact-container">
+          <a class="email" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+          <a class="tel" href="tel:+12127724150">+1 212-772-4150</a>
+        </div>
+      </div>
     </header>
 
     <!-- main section -->
     <main>
       <section class="main">
-        <hr />
-        <h1>
-          EFFECTIVE SOLUTIONS FOR<br />
-          YOUR BUSINESS
-        </h1>
-        <button class="button-request" type="button">
-          Request our service
-        </button>
+        <div class="effective-solutions">
+          <hr />
+          <h1>
+            EFFECTIVE SOLUTIONS FOR<br />
+            YOUR BUSINESS
+          </h1>
+          <div class="button-container">
+            <button class="button-request" type="button">
+              Request our service
+            </button>
+          </div>
+        </div>
       </section>
 
       <!-- about company -->
-      <section>
+      <section class="details-section">
         <ul>
           <li>
             <h3 class="company-title">ATTENTION TO DETAILS</h3>
@@ -95,87 +109,89 @@
       </section>
 
       <!-- what we do -->
-      <section>
-        <h2 class="-title">What we do</h2>
-        <ul>
-          <li>
-            <img
-              src="./images/what-we-do-1.jpg"
-              alt="working on computer"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/what-we-do-2.jpg"
-              alt="working on tel"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/what-we-do-3.jpg"
-              alt="working on design"
-              width="370"
-              height="294"
-            />
-          </li>
-        </ul>
+      <section class="job-section">
+        <div class="services-container">
+          <h2 class="title">What we do</h2>
+          <ul>
+            <li class="item-computer">
+              <img
+                src="./images/what-we-do-1.jpg"
+                alt="working on computer"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="item-tel">
+              <img
+                src="./images/what-we-do-2.jpg"
+                alt="working on tel"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="item-design">
+              <img
+                src="./images/what-we-do-3.jpg"
+                alt="working on design"
+                width="370"
+                height="294"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- our team -->
 
       <section class="team">
-        <h2 class="team-title">Our Team</h2>
-        <ul>
-          <li>
-            <img
-              src="./images/christopher-img-1.jpg"
-              alt="Christopher product designer"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-name">Christopher Walker<br /></h3>
-            <p class="functions-name">Product Designer</p>
-          </li>
+        <div class="team-container">
+          <h2 class="team-title">Our Team</h2>
+          <ul class="team-cards">
+            <li class="card-chris">
+              <img
+                src="./images/christopher-img-1.jpg"
+                alt="Christopher product designer"
+                width="270"
+                height="260"
+              />
+              <h3 class="team-name">Christopher Walker</h3>
+              <p class="functions-name">Product Designer</p>
+            </li>
 
-          <li>
-            <img
-              src="./images/kyle-img-2.jpg"
-              alt=" Kyle frontend developer"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-name">Kylie Evans</h3>
+            <li class="card-chris">
+              <img
+                src="./images/kyle-img-2.jpg"
+                alt=" Kyle frontend developer"
+                width="270"
+                height="260"
+              />
+              <h3 class="team-name">Kylie Evans</h3>
 
-            <p class="functions-name">Frontend Developer</p>
-          </li>
-          <li>
-            <img
-              src="./images/ryan-img-3.jpg"
-              alt="Ryan marketing"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-name">Ryan Harris</h3>
-            <p class="functions-name">Marketing</p>
-          </li>
-        </ul>
+              <p class="functions-name">Frontend Developer</p>
+            </li>
+            <li class="card-chris">
+              <img
+                src="./images/ryan-img-3.jpg"
+                alt="Ryan marketing"
+                width="270"
+                height="260"
+              />
+              <h3 class="team-name">Ryan Harris</h3>
+              <p class="functions-name">Marketing</p>
+            </li>
 
-        <ul>
-          <li>
-            <img
-              src="./images/tyler-img-4.jpg"
-              alt="Tyler UI Designer"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-name">Tyler Moore</h3>
-            <p class="functions-name">UI Designer</p>
-          </li>
-        </ul>
+            <li class="card-tyler">
+              <img
+                src="./images/tyler-img-4.jpg"
+                alt="Tyler UI Designer"
+                width="270"
+                height="260"
+              />
+              <h3 class="team-name">Tyler Moore</h3>
+              <p class="functions-name">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
