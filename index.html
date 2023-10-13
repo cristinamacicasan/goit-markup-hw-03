@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio Homework Project</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleais.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -46,13 +46,15 @@
 
     <!-- main section -->
     <main>
-      <section class="main">
+      <section class="main-section">
         <div class="effective-solutions">
-          <hr />
-          <h1>
-            EFFECTIVE SOLUTIONS FOR<br />
-            YOUR BUSINESS
-          </h1>
+          <div class="main-title">
+            <h1>
+              EFFECTIVE SOLUTIONS FOR<br />
+              YOUR BUSINESS
+            </h1>
+          </div>
+
           <div class="button-container">
             <button class="button-request" type="button">
               Request our service
@@ -62,50 +64,56 @@
       </section>
 
       <!-- about company -->
-      <section class="details-section">
-        <ul>
-          <li>
-            <h3 class="company-title">ATTENTION TO DETAILS</h3>
-            <p class="details">
-              We go into all the details and processes<br />
-              of your business to develop a<br />
-              customized solution.
-            </p>
-          </li>
-        </ul>
+      <section class="details-section-one">
+        <div class="details-section">
+          <ul>
+            <div class="attention">
+              <li>
+                <h3 class="company-title">ATTENTION TO DETAILS</h3>
+                <p class="details">
+                  We go into all the details and processes<br />
+                  of your business to develop a<br />
+                  customized solution.
+                </p>
+              </li>
+            </div>
+          </ul>
 
-        <ul>
-          <li>
-            <h3 class="company-title">PUNCTUALITY</h3>
-            <p class="details">
-              With us, you can feel safe and secure.<br />
-              An important principle of the company:<br />
-              respect your time and deadlines.
-            </p>
-          </li>
-        </ul>
+          <ul>
+            <div class="punctuality">
+              <li>
+                <h3 class="company-title">PUNCTUALITY</h3>
+                <p class="details">
+                  With us, you can feel safe and secure.<br />
+                  An important principle of the company:<br />
+                  respect your time and deadlines.
+                </p>
+              </li>
+            </div>
+          </ul>
 
-        <ul>
-          <li>
-            <h3 class="company-title">PLANNING</h3>
-            <p class="details">
-              You will be able to observe and<br />
-              participate in every phase of solution<br />
-              development and implementation.
-            </p>
-          </li>
-        </ul>
+          <ul>
+            <li>
+              <h3 class="company-title">PLANNING</h3>
+              <p class="details">
+                You will be able to observe and<br />
+                participate in every phase of solution<br />
+                development and implementation.
+              </p>
+            </li>
+          </ul>
 
-        <ul>
-          <li>
-            <h3 class="company-title">MODERN TECHNOLOGIES</h3>
-            <p class="details">
-              We use innovative tools to solve<br />
-              assigned tasks. It's time to simplify<br />
-              work processes.
-            </p>
-          </li>
-        </ul>
+          <ul>
+            <li>
+              <h3 class="company-title">MODERN TECHNOLOGIES</h3>
+              <p class="details">
+                We use innovative tools to solve<br />
+                assigned tasks. It's time to simplify<br />
+                work processes.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- what we do -->
@@ -197,7 +205,6 @@
 
     <!-- footer section -->
     <footer class="footer">
-      <hr />
       <!-- logo WebStudio -->
       <a href="./images/logo-webstudio.png" class="logo-link">
         <p class="logo">
@@ -205,15 +212,17 @@
           <span class="footer-studio">Studio</span>
         </p>
       </a>
-
-      <address class="footer-address">
-        <p class="name-address">695 Park Ave, NY 10065, USA</p>
-        <br />
-        <a class="footer-email-tel" href="mailto:info@devstudio.com"
-          >info@devstudio.com</a
-        ><br />
-        <a class="footer-email-tel" href="tel:+12127724150">+1 212-772-4150</a>
-      </address>
+      <div>
+        <address class="footer-address">
+          <p class="name-address">695 Park Ave, NY 10065, USA</p>
+          <a class="footer-email-tel" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          ><br />
+          <a class="footer-email-tel" href="tel:+12127724150"
+            >+1 212-772-4150</a
+          >
+        </address>
+      </div>
     </footer>
   </body>
 </html>
