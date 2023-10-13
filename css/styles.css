@@ -38,6 +38,7 @@ body {
   background-color: var(--background);
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid #ececec;
 }
 .logo-container {
   display: flex;
@@ -45,17 +46,14 @@ body {
   width: 100%px;
   justify-content: space-between;
   angle: 0 deg;
-  border: 1px solid #ECECEC
   background-color: var(--background);
 }
 
-.logo-link p{
+.logo-link p {
   display: flex;
   width: 145px;
   margin-left: 215px;
 }
-
-
 
 .global-header .logo-web {
   display: flex;
@@ -96,11 +94,11 @@ a {
   padding-left: 93px;
 }
 
-.studio :active{
-  color: var(--link-activ)
+.studio :active {
+  color: var(--link-activ);
 }
-.studio :hover{
-  color: var(--link-activ)
+.studio :hover {
+  color: var(--link-activ);
 }
 
 a:hover {
@@ -110,7 +108,6 @@ a:active {
   color: var(--link-activ);
 }
 .studio {
-
   font-family: var(--text-font-family);
   font-size: 14px;
   font-weight: var(--font-weight-500);
@@ -118,7 +115,7 @@ a:active {
   letter-spacing: 0.02em;
   text-align: left;
   align-items: center;
-  
+
   color: var(--link-activ);
 }
 
@@ -149,7 +146,6 @@ a:active {
 .global-header .main-navigation .studio :active {
   color: var(--link-activ);
 }
-
 
 .contact-container {
   display: flex;
@@ -188,12 +184,11 @@ a:active {
   top: 80px;
 }
 
-.main-title{
+.main-title {
   display: flex;
   justify-content: center;
   width: 696px;
   padding-top: 200px;
-
 }
 
 h1 {
@@ -205,10 +200,10 @@ h1 {
   text-transform: uppercase;
   color: var(--background);
 }
-.button-request button{
+.button-request button {
   padding: 10px 19px 10px 20px;
 }
-.button-container{
+.button-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -240,17 +235,15 @@ h1 {
   border-radius: 4px;
   background-color: var(--link-activ);
   box-shadow: 0px 4px 4px 0px #00000026;
-  
 }
 
 /*--about company--*/
 
-.details-section-one{
+.details-section-one {
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 100%;
-
 }
 
 .details-section {
@@ -282,8 +275,6 @@ h1 {
   width: 270px;
 }
 
-
-
 /*what we do*/
 
 .title {
@@ -296,21 +287,19 @@ h1 {
   color: var(--link-color);
   display: flex;
   margin-top: 94px;
-  padding-left: 701px;
+}
+.services-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.services-container ul{
-  width: 1170px;
+.services-container ul {
   display: flex;
+  justify-content: center;
+  gap: 40px;
   align-items: center;
-  padding-left: 215px;
-}
-ul .item-tel {
-  margin-left: 30px;
-}
-ul .item-design {
-  padding-right: 215px;
-  margin-left: 30px;
 }
 
 /*--our team*/
@@ -331,13 +320,11 @@ ul .item-design {
 }
 
 .team-cards {
-  width: 1170px;
   display: flex;
   flex-wrap: wrap;
   padding-top: 50px;
-  padding-right: 215px;
+  justify-content: center;
   padding-bottom: 94px;
-  padding-left: 215px;
 }
 .card-chris {
   margin-right: 30px;
@@ -374,13 +361,12 @@ ul .item-design {
   width: 100%;
   top: 2097px;
 }
-.footer .logo-link{
+.footer .logo-link {
   display: flex;
   padding-top: 60px;
 }
 
-.footer
-.logo-web {
+.footer .logo-web {
   font-family: var(--heading-font-family);
   font-weight: 700;
   font-size: 26px;
@@ -416,7 +402,7 @@ ul .item-design {
   top: 1747px;
   margin-left: 215px;
 }
-.footer-address{
+.footer-address {
   display: block;
   top: 2216px;
 }
@@ -431,7 +417,6 @@ ul .item-design {
   color: #ffffff99;
   width: 231px;
   margin-left: 215px;
-  
 }
 
 /*portofoliu*/
@@ -442,25 +427,19 @@ ul .item-design {
   width: 100%;
   display: flex;
   flex-direction: row;
-  padding: 94px 215px;
-}
-.gallery {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 94px;
+  padding-top: 94px;
 }
 
 .buttons-gallery {
   display: flex;
-  flex-direction: row;
-  width: 1170px;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
 }
 .portofoliu-buttons {
   flex-direction: row;
   align-content: center;
-  width: 516px;
   top: 174px;
   left: 542px;
   border-radius: 4px;
@@ -574,17 +553,13 @@ ul .item-design {
 
 /*gallery*/
 
-.gallery ul {
+.gallery {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 60px;
-
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 94px;
+  gap: 50px;
 }
 
 .gallery .gallery-name {
