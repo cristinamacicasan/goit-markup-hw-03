@@ -38,14 +38,12 @@ body {
   background-color: var(--background);
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid var(--border-color);
 }
 .logo-container {
   display: flex;
   align-items: center;
-  width: 100%px;
   justify-content: space-between;
-  angle: 0 deg;
   background-color: var(--background);
 }
 
@@ -89,7 +87,7 @@ a {
   width: 259px;
   justify-content: space-between;
   align-items: center;
-  top: 32px;
+
   margin-right: 385px;
   padding-left: 93px;
 }
@@ -117,6 +115,7 @@ a:active {
   align-items: center;
 
   color: var(--link-activ);
+  padding-right: 50px;
 }
 
 .portofoliu {
@@ -127,6 +126,7 @@ a:active {
   letter-spacing: 0.02em;
   color: var(--link-color);
   align-items: center;
+  margin-right: 50px;
 }
 
 .portofoliu:active {
@@ -357,13 +357,15 @@ h1 {
 /*footer*/
 
 .footer {
+  display: flex;
+  flex-direction: column;
+
   background: var(--main-background);
   width: 100%;
   top: 2097px;
 }
 .footer .logo-link {
   display: flex;
-  padding-top: 60px;
 }
 
 .footer .logo-web {
@@ -401,10 +403,14 @@ h1 {
   width: 207px;
   top: 1747px;
   margin-left: 215px;
+  display: flex;
+  flex-direction: row;
 }
 .footer-address {
-  display: block;
+  display: flex;
+  flex-direction: column;
   top: 2216px;
+  margin-bottom: 60px;
 }
 
 .footer-address .footer-email-tel {
@@ -427,7 +433,7 @@ h1 {
   width: 100%;
   display: flex;
   flex-direction: row;
-  padding-top: 94px;
+  padding: 94px 215px;
 }
 
 .buttons-gallery {
@@ -440,6 +446,7 @@ h1 {
 .portofoliu-buttons {
   flex-direction: row;
   align-content: center;
+  width: 516px;
   top: 174px;
   left: 542px;
   border-radius: 4px;
@@ -480,7 +487,9 @@ h1 {
   top: 174px;
   left: 937px;
   border-radius: 4px;
+  border-style: none;
   background: #f5f4fa;
+  padding: 6px 22px 6px 22px;
 }
 
 .button-web-sites {
@@ -497,7 +506,9 @@ h1 {
   top: 174px;
   left: 937px;
   border-radius: 4px;
+  border-style: none;
   background: #f5f4fa;
+  padding: 6px 22px;
 }
 
 .button-apps {
@@ -514,7 +525,9 @@ h1 {
   top: 174px;
   left: 937px;
   border-radius: 4px;
+  border-style: none;
   background: #f5f4fa;
+  padding: 6px 22px;
 }
 
 .button-design {
@@ -530,8 +543,9 @@ h1 {
   width: 121px;
   top: 174px;
   left: 937px;
-  border-radius: 4px;
+  border-style: none;
   background: #f5f4fa;
+  padding: 6px 22px;
 }
 
 .button-marketing {
@@ -547,8 +561,9 @@ h1 {
   width: 121px;
   top: 174px;
   left: 937px;
-  border-radius: 4px;
+  border-style: none;
   background: #f5f4fa;
+  padding: 6px 22px;
 }
 
 /*gallery*/
@@ -561,6 +576,14 @@ h1 {
   margin-top: 94px;
   gap: 50px;
 }
+.cards {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  top: 262px;
+  left: 215px;
+  border: ;
+}
 
 .gallery .gallery-name {
   font-family: var(--text-font-family);
@@ -568,8 +591,9 @@ h1 {
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 0.06em;
-  text-align: center;
+  text-align: left;
   color: var(--link-color);
+  padding-left: 24px;
 }
 
 .gallery .gallery-function {
@@ -578,6 +602,16 @@ h1 {
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.03em;
-  text-align: center;
+  text-align: left;
   color: var(--address);
+  padding-bottom: 20px;
+  padding-left: 24px;
+}
+
+.name-function {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }

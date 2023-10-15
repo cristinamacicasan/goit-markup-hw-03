@@ -10,7 +10,10 @@
       href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -27,7 +30,9 @@
         <div class="nav-container">
           <nav class="main-navigation">
             <ul>
-              <li><a class="studio" href="index.html">Studio</a></li>
+              <li>
+                <a class="studio" href="index.html">Studio</a>
+              </li>
               <li>
                 <a class="portofoliu" href="portofoliu.html">Portfolio</a>
               </li>
@@ -65,20 +70,22 @@
           <!-- gallery -->
 
           <ul class="gallery">
-            <li>
+            <li class="cards">
               <img
-                class="gallery-name"
+                class="card-one"
                 src="./images/technoduck-1.jpg"
                 alt="Our people"
                 width="370"
                 height="294"
               />
               <br />
-              <p class="gallery-name">Technoduck</p>
-              <br />
-              <span class="gallery-function">Web-site</span>
+              <div class="name-function">
+                <p class="gallery-name">Technoduck</p>
+
+                <span class="gallery-function">Web-site</span>
+              </div>
             </li>
-            <li>
+            <li class="cards">
               <img
                 src="./images/poster-2.jpg"
                 alt="Poster New Orlean"
@@ -90,7 +97,7 @@
               <br />
               <span class="gallery-function">Design</span>
             </li>
-            <li>
+            <li class="cards">
               <img
                 src="./images/seafood-3.jpg"
                 alt="Seafood"
@@ -102,7 +109,7 @@
               <br />
               <span class="gallery-function">Apps</span>
             </li>
-            <li>
+            <li class="cards">
               <img
                 src="./images/project-4.jpg"
                 alt="Headphones"
@@ -114,7 +121,7 @@
               <br />
               <span class="gallery-function">Marketing</span>
             </li>
-            <li>
+            <li class="cards">
               <img
                 src="./images/project-5.jpg"
                 alt="Boxes"
@@ -126,7 +133,7 @@
               <br />
               <span class="gallery-function">Apps</span>
             </li>
-            <li>
+            <li class="cards">
               <img
                 src="./images/inspiration-6.jpg"
                 alt="screen"
@@ -138,7 +145,7 @@
               <br />
               <span class="gallery-function">Web-site</span>
             </li>
-            <li>
+            <li class="cards">
               <img
                 src="./images/limited-7.jpg"
                 alt="Book"
@@ -150,7 +157,7 @@
               <br />
               <span class="gallery-function">Design</span>
             </li>
-            <li>
+            <li class="cards">
               <img
                 src="./images/project-8.jpg"
                 alt="Label"
@@ -162,7 +169,7 @@
               <br />
               <span class="gallery-function">Marketing</span>
             </li>
-            <li>
+            <li class="cards">
               <img
                 src="./images/growing-9.jpg"
                 alt="Laptop"
