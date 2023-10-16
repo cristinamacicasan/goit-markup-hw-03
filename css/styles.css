@@ -105,6 +105,16 @@ a:hover {
 a:active {
   color: var(--link-activ);
 }
+
+.current {
+  color: var(--link-activ);
+}
+
+.current {
+  padding-bottom: 20px;
+  border-bottom: var(--link-activ) solid 4px;
+  border-radius: 2px;
+}
 .studio {
   font-family: var(--text-font-family);
   font-size: 14px;
@@ -115,7 +125,7 @@ a:active {
   align-items: center;
 
   color: var(--link-activ);
-  padding-right: 50px;
+  margin-right: 50px;
 }
 
 .portofoliu {
@@ -594,6 +604,8 @@ h1 {
   text-align: left;
   color: var(--link-color);
   padding-left: 24px;
+  padding-top: 20px;
+  padding-bottom: 4px;
 }
 
 .gallery .gallery-function {
